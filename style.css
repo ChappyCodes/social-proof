@@ -1,0 +1,325 @@
+
+body{
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    font-family: 'League Spartan', sans-serif;
+}
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 40vh;
+    width: 190vh;
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    background-color: #fff;
+}
+.user{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #4e054e;
+}
+.customer{
+    color: #59025988;
+    font-size: 1.1rem;
+    margin-top: -20px;
+    line-height: 17px;
+    font-weight: 600;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    background-color: #fff;
+}
+.rev1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7vh;
+    width: 28vw;
+    background-color: #fbebfb;
+    margin-top: 40px;
+    margin-left: 14rem;
+}
+.rev2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7vh;
+    width: 28vw;
+    background-color: #fbebfb;
+    margin-top: 15px;
+    margin-left: 16rem;
+}
+.rev3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7vh;
+    width: 28vw;
+    background-color: #fbebfb;
+    margin-top: 15px;
+    margin-left: 18rem;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    margin: 0 5px;
+    background-image: url("./images/icon-star.svg");
+    background-size: cover;
+    height: 0.9rem;
+    width: 0.9rem;
+}
+.rated{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 40vh;
+    width: 190vh;
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    height: 40vh;
+    width: 27vw;
+    background-color: #4e054e;
+    border-radius: 10px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 40vh;
+    width: 27vw;
+    background-color: #4e054e;
+    border-radius: 10px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: -10px;
+    height: 40vh;
+    width: 27vw;
+    background-color: #4e054e;
+    border-radius: 10px;
+}
+.mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10vh;
+    width: 25vw;
+    margin-top: -30px;
+}
+.tiny{
+    height: 10vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -10px 0 0 20px;
+}
+img{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    margin-left: 2.6rem;
+}
+h3{
+    margin: 1px;
+}
+.name{
+    color: #fff;
+    font-size: 1rem;
+}
+.buy{
+    color: #f561f5;
+    font-size: 1rem;
+}
+.review{
+    margin: 0;
+    height: 9vh;
+    width: 25vw;
+}
+.comment{
+    font-size: 1rem;
+    color: #ffffffc8;
+    margin: 15px 2.3rem;
+    line-height: 17px;
+}
+.credit{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 0.9rem;
+}
+@media screen and (max-width:700px) {
+    body{
+        overflow: scroll;
+    }
+    .container{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url("./images/bg-pattern-top-mobile.svg");
+        background-position: center;
+        background-size: cover;
+    }
+    .left-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 80%;
+    }
+    .user{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .customer{
+        text-align: center;
+    }
+    br{
+        display: none;
+    }
+    .right-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        width: 80%;
+        background-color: #fff;
+    }
+    .rev1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 5rem;
+        width: 20rem;
+        margin-top: 15px;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    .rev2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        width: 20rem;
+        margin-top: 15px;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    .rev3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 5rem;
+        width: 20rem;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    .rated{
+        font-size: 1rem;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background-image: url("./images/bg-pattern-bottom-mobile.svg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    .box1{
+        margin-left: 0;
+        height: 15rem;
+        width: 20rem;
+        background-color: #4e054e;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .box2{
+        height: 15rem;
+        width: 20rem;
+        background-color: #4e054e;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .box3{
+        margin-right: 0;
+        height: 15rem;
+        width: 20rem;
+        background-color: #4e054e;
+        border-radius: 10px;
+        margin-top: 20px;
+    
+    }
+    .mini{
+        height: 5rem;
+        width: 20rem;
+        margin-top: -30px;
+    }
+    .tiny{
+        height: 5rem;
+        width: 20rem;
+    }
+    img{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin-left: 2.6rem;
+    }
+    .review{
+        margin: 0;
+        height: 5rem;
+        width: 20rem;
+    }
+    .credit{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
