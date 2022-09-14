@@ -1,5 +1,4 @@
-
-body{
+body {
     overflow: hidden;
     margin: 0;
     display: flex;
@@ -10,44 +9,52 @@ body{
     align-content: center;
     font-family: 'League Spartan', sans-serif;
 }
-.container{
+
+.container {
     margin-top: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     height: 40vh;
     width: 190vh;
     background-image: url("./images/bg-pattern-top-desktop.svg");
+    background-size: cover;
+    background-position: center;
 }
-.left-box{
+
+.left-box {
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    width: 50vw;
-    background-color: #fff;
+    height: 20rem;
+    width: 24rem;
+    background-color: rgba(255, 255, 255, 0);
 }
-.user{
+
+.user {
     margin-top: 20px;
     font-weight: 700;
     font-size: 3rem;
     color: #4e054e;
 }
-.customer{
+
+.customer {
     color: #59025988;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-top: -20px;
     line-height: 17px;
     font-weight: 600;
 }
-.right-box{
+
+.right-box {
     display: flex;
     flex-direction: column;
-    height: 50vh;
-    width: 50vw;
-    background-color: #fff;
+    height: 20rem;
+    width: 24rem;
+    background-color: rgba(255, 255, 255, 0);
 }
-.rev1{
+
+.rev1 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -56,9 +63,9 @@ body{
     width: 28vw;
     background-color: #fbebfb;
     margin-top: 40px;
-    margin-left: 14rem;
 }
-.rev2{
+
+.rev2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -67,9 +74,10 @@ body{
     width: 28vw;
     background-color: #fbebfb;
     margin-top: 15px;
-    margin-left: 16rem;
+    margin-left: 2rem;
 }
-.rev3{
+
+.rev3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -78,67 +86,78 @@ body{
     width: 28vw;
     background-color: #fbebfb;
     margin-top: 15px;
-    margin-left: 18rem;
+    margin-left: 4rem;
 }
-.stars{
+
+.stars {
     display: flex;
     flex-direction: row;
 }
-.img{
+
+.img {
     margin: 0 5px;
     background-image: url("./images/icon-star.svg");
     background-size: cover;
     height: 0.9rem;
     width: 0.9rem;
 }
-.rated{
+
+.rated {
     font-weight: 700;
     font-size: 0.9rem;
 }
-.bottom{
+
+.bottom {
+    margin-left: 1.2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     height: 40vh;
     width: 190vh;
-    background-image: url("./images/bg-pattern-top-desktop.svg");
+    background-image: url("./images/bg-pattern-bottom-desktop.svg");
+
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: -10px;
-    height: 40vh;
-    width: 27vw;
+    height: 14rem;
+    width: 18rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
-.box2{
+
+.box2 {
+    margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    height: 40vh;
-    width: 27vw;
+    height: 14rem;
+    width: 18rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
-.box3{
+
+.box3 {
+    margin-left: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    margin-right: -10px;
-    height: 40vh;
-    width: 27vw;
+    height: 14rem;
+    width: 18rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
-.mini{
+
+.mini {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -147,7 +166,8 @@ body{
     width: 25vw;
     margin-top: -30px;
 }
-.tiny{
+
+.tiny {
     height: 10vh;
     width: 18vw;
     display: flex;
@@ -155,44 +175,53 @@ body{
     justify-content: center;
     margin: -10px 0 0 20px;
 }
-img{
+
+img {
     height: 10vh;
     width: 10vh;
     border-radius: 50%;
     margin-left: 2.6rem;
 }
-h3{
+
+h3 {
     margin: 1px;
 }
-.name{
+
+.name {
     color: #fff;
     font-size: 1rem;
 }
-.buy{
+
+.buy {
     color: #f561f5;
     font-size: 1rem;
 }
-.review{
+
+.review {
     margin: 0;
     height: 9vh;
     width: 25vw;
 }
-.comment{
+
+.comment {
     font-size: 1rem;
     color: #ffffffc8;
     margin: 15px 2.3rem;
     line-height: 17px;
 }
-.credit{
+
+.credit {
     text-align: center;
     margin-top: 30px;
     font-family: 0.9rem;
 }
+
 @media screen and (max-width:700px) {
-    body{
+    body {
         overflow: scroll;
     }
-    .container{
+
+    .container {
         height: 80%;
         width: 100%;
         display: flex;
@@ -203,7 +232,8 @@ h3{
         background-position: center;
         background-size: cover;
     }
-    .left-box{
+
+    .left-box {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -211,17 +241,21 @@ h3{
         height: 50%;
         width: 80%;
     }
-    .user{
+
+    .user {
         text-align: center;
         font-size: 2.5rem;
     }
-    .customer{
+
+    .customer {
         text-align: center;
     }
-    br{
+
+    br {
         display: none;
     }
-    .right-box{
+
+    .right-box {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -229,7 +263,8 @@ h3{
         width: 80%;
         background-color: #fff;
     }
-    .rev1{
+
+    .rev1 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -239,7 +274,8 @@ h3{
         margin-left: 0;
         border-radius: 5px;
     }
-    .rev2{
+
+    .rev2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -250,7 +286,8 @@ h3{
         margin-left: 0;
         border-radius: 5px;
     }
-    .rev3{
+
+    .rev3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -260,10 +297,13 @@ h3{
         margin-left: 0;
         border-radius: 5px;
     }
-    .rated{
+
+    .rated {
         font-size: 1rem;
     }
-    .bottom{
+
+    .bottom {
+        margin-left: 0;
         display: flex;
         flex-direction: column;
         height: 100%;
@@ -274,7 +314,8 @@ h3{
         margin-top: 30px;
         margin-bottom: 80px;
     }
-    .box1{
+
+    .box1 {
         margin-left: 0;
         height: 15rem;
         width: 20rem;
@@ -282,43 +323,51 @@ h3{
         border-radius: 10px;
         margin-top: 20px;
     }
-    .box2{
+
+    .box2 {
         height: 15rem;
         width: 20rem;
         background-color: #4e054e;
         border-radius: 10px;
         margin-top: 20px;
+        margin-left: 0;
     }
-    .box3{
+
+    .box3 {
         margin-right: 0;
         height: 15rem;
         width: 20rem;
         background-color: #4e054e;
         border-radius: 10px;
         margin-top: 20px;
-    
+        margin-left: 0;
     }
-    .mini{
+
+    .mini {
         height: 5rem;
         width: 20rem;
         margin-top: -30px;
     }
-    .tiny{
+
+    .tiny {
         height: 5rem;
         width: 20rem;
     }
-    img{
+
+    img {
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
         margin-left: 2.6rem;
     }
-    .review{
+
+    .review {
         margin: 0;
         height: 5rem;
         width: 20rem;
     }
-    .credit{
+
+    .credit {
         margin-top: 0;
         margin-bottom: 30px;
     }
