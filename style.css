@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+    overflow-y: scroll;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,17 +13,18 @@ body {
 .container {
     margin-top: 60px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 40vh;
-    width: 190vh;
+    height: 15rem;
+    width: 68rem;
     background-image: url("./images/bg-pattern-top-desktop.svg");
     background-size: cover;
     background-position: center;
 }
 
 .left-box {
+    margin-right: 9rem;
     display: flex;
     flex-direction: column;
     height: 20rem;
@@ -50,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 20rem;
-    width: 24rem;
+    width: 28rem;
     background-color: rgba(255, 255, 255, 0);
 }
 
@@ -59,8 +60,8 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 7vh;
-    width: 28vw;
+    height: 2.5rem;
+    width: 25rem;
     background-color: #fbebfb;
     margin-top: 40px;
 }
@@ -70,8 +71,8 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 7vh;
-    width: 28vw;
+    height: 2.5rem;
+    width: 25rem;
     background-color: #fbebfb;
     margin-top: 15px;
     margin-left: 2rem;
@@ -82,8 +83,8 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 7vh;
-    width: 28vw;
+    height: 2.5rem;
+    width: 25rem;
     background-color: #fbebfb;
     margin-top: 15px;
     margin-left: 4rem;
@@ -113,8 +114,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 40vh;
-    width: 190vh;
+    height: 15rem;
+    width: 68rem;
     background-image: url("./images/bg-pattern-bottom-desktop.svg");
 
 }
@@ -126,7 +127,7 @@ body {
     align-items: center;
     margin-left: -10px;
     height: 14rem;
-    width: 18rem;
+    width: 20rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
@@ -139,7 +140,7 @@ body {
     align-items: center;
     margin-top: 20px;
     height: 14rem;
-    width: 18rem;
+    width: 20rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
@@ -152,7 +153,7 @@ body {
     align-items: center;
     margin-top: 40px;
     height: 14rem;
-    width: 18rem;
+    width: 20rem;
     background-color: #4e054e;
     border-radius: 10px;
 }
@@ -204,7 +205,7 @@ h3 {
 }
 
 .comment {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #ffffffc8;
     margin: 15px 2.3rem;
     line-height: 17px;
@@ -234,6 +235,7 @@ h3 {
     }
 
     .left-box {
+        margin-right: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
